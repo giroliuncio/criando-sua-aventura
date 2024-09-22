@@ -1,0 +1,33 @@
+body{
+    background-color: rgb(13,159,13);
+    color: white;
+    font-family:"Space Grotesk", system-ui;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    height:700px;
+    margin:0px;
+}
+
+button{
+    background-color: rgb(206,53,53);
+    color:white;
+    font-family:"Space Grotesk", system-ui;
+}
+
+.passo{
+    display:none;
+}
+
+.passo.ativo{
+    display:block;
+}
+
+main{
+    text-align:center;
+    max-width:90%;
+}
+
+img{
+    max-width:90%;
+}
